@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: beautiful-blog
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    autoDeployTrigger: commit
